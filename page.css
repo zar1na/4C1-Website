@@ -1,0 +1,81 @@
+#header {
+	text-align: center;
+}
+#subheader {
+	font-size: 40px;
+}
+#navigation {
+	border-style: groove;
+	padding: 5px;
+	justify-content: space-between;
+}
+#inc {
+	padding: 2px;
+	text-align: center;
+}
+#top {
+	justify-content: space-between;
+}
+#subsub {
+	font-size: 24px;
+}
+.grid-x {
+	padding: 10px;
+}
+#supremearticle {
+	text-align: center;
+}
+#supremehype, #palacehype {
+	text-align: center;
+	color: darkred;
+}
+#palaceinsp, #patagonia , #vans {
+	height:350px;
+	width:350px;
+	overflow:auto;
+}
+#palacevideo, #adidasvideo {
+	width:500px;
+	height:350px;
+}
+#patagoniavideo {
+	width:400px;
+	height:360px;
+}
+
+#palacemap {
+	width:400px;
+	height:300px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+a {
+	padding: 20px;
+	font-size: 16px;
+	color: black;
+}
+footer {
+	border-style: groove;
+}
+body {
+	color: darkred;	
+	max-width: 960px;
+	margin: 10px auto;
+	background-color: linen;
+	opacity: .9;
+}
+html { 
+	background: url("background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
